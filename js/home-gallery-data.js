@@ -1,3 +1,17 @@
+// ============================================================
+//  HOME GALLERY DATA
+//  Slider under "Gallery Highlights" on the home page.
+//  Edited by hand (build-gallery.py does NOT touch this file;
+//  the Gallery page uses gallery-data.js instead).
+//  To add a photo: copy one entry block and fill in the fields.
+//  Fields:
+//    image   – path to the photo, relative to index.html
+//              e.g. "images/gallery/home-highlights/photo16.jpg"
+//    caption – text shown on the photo (string, plain text)
+//
+//  Photos appear in the order below.
+// ============================================================
+
 const galleryImages = [
     {
         image: "images/gallery/home-highlights/photo1.png",

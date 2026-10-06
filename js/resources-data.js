@@ -5,7 +5,7 @@
 //    title       – resource name (string)
 //    description – one-line summary shown on the landing page card (string)
 //    thumbnail   – path to card image, relative to resources/resources.html
-//                  e.g. "../images/resources/software.jpg"
+//                  e.g. "../images/projects-and-resources/software.jpg"
 //                  set to null to show a placeholder
 //    page        – filename of the sub-item page, e.g. "software.html"
 // ============================================================

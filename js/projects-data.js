@@ -5,7 +5,7 @@
 //    title       – project name (string)
 //    description – one-line summary shown on the landing page card (string)
 //    thumbnail   – path to card image, relative to projects/projects.html
-//                  e.g. "../images/projects/tishumap.jpg"
+//                  e.g. "../images/projects-and-resources/tishumap.jpg"
 //                  set to null to show a placeholder
 //    page        – filename of the sub-item page, e.g. "tishumap.html"
 // ============================================================

@@ -1,3 +1,35 @@
+// ============================================================
+//  TEAM DATA
+//  Shown on the Team page (team.html). Two blocks:
+//    piData      – the Principal Investigator card
+//    teamMembers – everyone else, shown as a grid of cards
+//
+//  piData fields:
+//    name, title, photo, blurb, email, twitter, astar
+//    title can use <br> for a line break; blurb is wrapped in
+//    backticks and can contain HTML links; astar is the A*STAR
+//    profile URL. email, twitter and astar are optional (the
+//    matching link is hidden if left out).
+//
+//  To add a team member: copy one entry block into the right
+//  group of teamMembers, in alphabetical order by first name.
+//  Fields:
+//    name   – full name (string)
+//    title  – use the existing titles exactly, e.g.
+//             "Postdoctoral Fellow", "Senior Research Officer",
+//             "Research Officer", "Graduate Student",
+//             "Programme Manager" (string)
+//    photo  – e.g. "images/team/firstname_lastname.jpg"
+//             (lowercase, underscores, under 500 KB; a placeholder
+//             is shown if left out)
+//    github – GitHub profile URL (string, optional)
+//    badge  – { label: "...", href: "..." } (optional; if both
+//             badge and github are given, only the badge is shown)
+//
+//  Groups: Postdoctoral Fellows (and the Programme Manager), then
+//  Senior Research Officers, Research Officers and Graduate Students.
+// ============================================================
+
 /* PI */
 const piData = {
   name: "Shyam Prabhakar",

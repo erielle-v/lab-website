@@ -1,3 +1,28 @@
+// ============================================================
+//  TALKS DATA
+//  To add a talk: copy one entry block and fill in the fields.
+//  Fields:
+//    title   – talk title (string)
+//    event   – event name, city, country (string)
+//    date    – e.g. "Dec 3, 2024" (string)
+//    link    – full URL; makes the title clickable (string, optional)
+//
+//  Media (use ONE per entry):
+//    youtube – YouTube video ID only, i.e. the part after "v="
+//              in the URL (string)
+//    start   – start time in seconds, e.g. 2242 (number, optional;
+//              used with youtube; keep the "&t=2242s" in link)
+//    drive   – Google Drive file ID (string)
+//    audio   – path to an audio file, relative to media/talks.html
+//              e.g. "../audio/filename.mp3"
+//
+//  Optional extra link:
+//    externalLink      – URL (string)
+//    externalLinkLabel – button text (string; defaults to "Watch here")
+//
+//  Talks appear in the order below (newest first).
+// ============================================================
+
 const talksData = [
     {
         title: "Overview of the HCA Asia and HCA Diversity Task Force",

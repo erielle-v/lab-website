@@ -1,3 +1,23 @@
+// ============================================================
+//  SHARED SCRIPT (loaded on every page)
+//  Each section only runs on pages that contain the matching
+//  elements. Content is edited in the data files, not here.
+//  Sections:
+//    NAVBAR                – sets the browser tab title from the
+//                            highlighted menu item + " | SP Lab";
+//                            hides the navbar on scroll down and
+//                            shows it on scroll up
+//    GALLERY HIGHLIGHTS    – home page slider (galleryImages from
+//                            home-gallery-data.js)
+//    FEATURED PUBLICATIONS – home page slider (featuredPublications
+//                            from home-featured-data.js)
+//    TALKS & SEMINARS      – builds the talk cards (talksData from
+//                            talks-data.js); YouTube videos load only
+//                            when the thumbnail is clicked
+//    GALLERY PAGE          – builds the year sections (galleryData
+//                            from gallery-data.js) and the lightbox
+// ============================================================
+
 /* ========= NAVBAR ========= */
 const pageName = document.querySelector('.navbar a.active')?.textContent.trim() || "SP Lab";
 document.title = `${pageName} | SP Lab`;

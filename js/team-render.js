@@ -1,3 +1,12 @@
+// ============================================================
+//  TEAM RENDER SCRIPT
+//  Reads piData / teamMembers (from team-data.js) and builds the
+//  Principal Investigator card and the team member grid on
+//  team.html.
+//  To add or edit people, edit the data file only — this script
+//  should not need to change for routine updates.
+// ============================================================
+
 /* SVG ICONS */
 const ICONS = {
   email: `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

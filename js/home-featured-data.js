@@ -1,3 +1,22 @@
+// ============================================================
+//  HOME FEATURED PUBLICATIONS DATA
+//  Slider under "Featured Publications" on the home page.
+//  To add a paper: copy one entry block and fill in the fields.
+//  Fields:
+//    title   – paper title (string)
+//    link    – PubMed, DOI, or journal URL (string)
+//    journal – journal name (string)
+//    year    – publication year (number)
+//    text    – abstract text, wrapped in backticks so it can span
+//              several lines (do not use a backtick inside it)
+//
+//  Entries appear in the order below (newest first).
+//  link, journal, year and text can be left out.
+//  Everything is shown as plain text: no HTML tags, and write
+//  "&" as "&" (not "&amp;").
+//  Featured papers should also be listed in publications-data.js.
+// ============================================================
+
 const featuredPublications = [
     {
         title: "Asian diversity in human immune cells",
