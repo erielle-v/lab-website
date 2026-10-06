@@ -12,12 +12,6 @@ const piData = {
 const teamMembers = [
   /* Postdoctoral Fellows */
   {
-    name: "Grace Yeo",
-    title: "Postdoctoral Fellow",
-    photo: "images/team/grace_yeo.jpg",
-    github: "https://github.com/yhtgrace",
-  },
-  {
     name: "Ignasius Joanito",
     title: "Postdoctoral Fellow",
     photo: "images/team/ignasius_joanito.jpg",
@@ -28,11 +22,6 @@ const teamMembers = [
     photo: "images/team/jagadish_sankaran.jpg",
   },
   {
-    name: "Jonathan Aow",
-    title: "Postdoctoral Fellow",
-    photo: "images/team/jonathan_aow.jpg",
-  },
-  {
     name: "Kian Hong Kock",
     title: "Postdoctoral Fellow",
     photo: "images/team/kian_hong_kock.jpg",
@@ -41,11 +30,6 @@ const teamMembers = [
     name: "Merve Kahraman",
     title: "Postdoctoral Fellow",
     photo: "images/team/merve_kahraman.jpg",
-  },
-  {
-    name: "Reema Baskar",
-    title: "Postdoctoral Fellow",
-    photo: "images/team/reema_baskar.jpg",
   },
   {
     name: "Shvetha Sankaran",
@@ -64,17 +48,6 @@ const teamMembers = [
     name: "Arthur Zhang",
     title: "Senior Research Officer",
     photo: "images/team/arthur_zhang.jpg",
-  },
-  {
-    name: "Dane Bagaoisan",
-    title: "Research Officer",
-    photo: "images/team/dane_bagaoisan.jpg",
-    github: "https://github.com/DaneMarc",
-  },
-  {
-    name: "Erielle Villanueva",
-    title: "Research Officer",
-    photo: "images/team/erielle_villanueva.jpg",
   },
   {
     name: "Giovani Wijaya",
@@ -111,11 +84,6 @@ const teamMembers = [
     name: "Prasanna Nori Venkatesh",
     title: "Senior Research Officer",
     photo: "images/team/prasanna_nori_venkatesh.jpg",
-  },
-  {
-    name: "Shu Qin Peng",
-    title: "Research Officer",
-    photo: "images/team/shu_qin_peng.jpg",
   },
   {
     name: "Sudhagar Samydurai",
